@@ -19,12 +19,7 @@ class RoleTest extends WP_UnitTestCase {
 		$user_id = $this->factory->user->create( array( 'role' => 'representant' ) );
 		$oUser = get_user_by( 'id', $user_id );
 		$aUser = get_object_vars( $oUser );
-		
 		$sRole = $aUser['roles'][0];
-		// var_dump($sRole);
-		// global $wp_roles;
-		// var_dump($wp_roles);
 		$this->assertEquals( 'representant', $sRole);
-
 	}
 }
