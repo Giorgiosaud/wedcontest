@@ -31,7 +31,7 @@ class WedContest_Autoloader {
 
 		spl_autoload_register( array( $this, 'autoload' ) );
 
-		$this->include_path = untrailingslashit( plugin_dir_path( WC_PLUGIN_FILE ) ) . '/includes/';
+		$this->include_path = untrailingslashit( plugin_dir_path( WEDCONTEST_PLUGIN_FILE ) ) . '/includes/';
 	}
 
 	/**

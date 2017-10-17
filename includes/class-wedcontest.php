@@ -79,7 +79,7 @@ final class WedContest
 		}
 	}
 
-	function __construct(argument)
+	function __construct()
 	{
 		$this->define_constants();
 		$this->includes();
@@ -109,7 +109,7 @@ final class WedContest
 		/**
 		 * Class autoloader.
 		 */
-		include_once( WC_ABSPATH . 'includes/class-wedcontest-autoloader.php' );
+		include_once( WEDCONTEST_ABSPATH . 'includes/class-wedcontest-autoloader.php' );
 
 		/**
 		 * Interfaces.
@@ -150,10 +150,10 @@ final class WedContest
 		/**
 		 * Core classes.
 		 */
-		// include_once( WC_ABSPATH . 'includes/wc-core-functions.php' );
+		include_once( WEDCONTEST_ABSPATH . 'includes/wedcontest-core-functions.php' );
 		// include_once( WC_ABSPATH . 'includes/class-wc-datetime.php' );
 		// include_once( WC_ABSPATH . 'includes/class-wc-post-types.php' ); // Registers post types.
-		// include_once( WC_ABSPATH . 'includes/class-wc-install.php' );
+		include_once( WEDCONTEST_ABSPATH . 'includes/class-wedcontest-install.php' );
 		// include_once( WC_ABSPATH . 'includes/class-wc-geolocation.php' );
 		// include_once( WC_ABSPATH . 'includes/class-wc-download-handler.php' );
 		// include_once( WC_ABSPATH . 'includes/class-wc-comments.php' );
@@ -239,23 +239,54 @@ final class WedContest
 		// $this->api   = new WC_API();
 	}
 	private function init_hooks() {
-		register_activation_hook( WC_PLUGIN_FILE, array( 'WC_Install', 'install' ) );
+		register_activation_hook( WEDCONTEST_PLUGIN_FILE, array( 'WC_Install', 'install' ) );
 		register_shutdown_function( array( $this, 'log_errors' ) );
 		add_action( 'after_setup_theme', array( $this, 'setup_environment' ) );
 		// add_action( 'after_setup_theme', array( $this, 'include_template_functions' ), 11 );
 		// add_action( 'init', array( $this, 'init' ), 0 );
-		add_action( 'init', array( 'WC_Shortcodes', 'init' ) );
+		add_action( 'init', array( 'WedContest_Shortcodes', 'init' ) );
 		// add_action( 'init', array( 'WC_Emails', 'init_transactional_emails' ) );
 		// add_action( 'init', array( $this, 'wpdb_table_fix' ), 0 );
 		// add_action( 'switch_blog', array( $this, 'wpdb_table_fix' ), 0 );
 	}
 	public function setup_environment() {
 		/* @deprecated 2.2 Use WC()->template_path() instead. */
-		$this->define( 'WC_TEMPLATE_PATH', $this->template_path() );
+		// $this->define( 'WEDCONTEST_TEMPLATE_PATH', $this->template_path() );
 
 		$this->add_thumbnail_support();
 		$this->add_image_sizes();
 	}
+	/**
+	 * Ensure post thumbnail support is turned on.
+	 */
+	private function add_thumbnail_support() {
+		if ( ! current_theme_supports( 'post-thumbnails' ) ) {
+			add_theme_support( 'post-thumbnails' );
+		}
+		// add_post_type_support( 'product', 'thumbnail' );
+	}
+	/**
+	 * Add WC Image sizes to WP.
+	 *
+	 * @since 2.3
+	 */
+	private function add_image_sizes() {
+		// $shop_thumbnail = wc_get_image_size( 'shop_thumbnail' );
+		// $shop_catalog	= wc_get_image_size( 'shop_catalog' );
+		// $shop_single	= wc_get_image_size( 'shop_single' );
+
+		// add_image_size( 'shop_thumbnail', $shop_thumbnail['width'], $shop_thumbnail['height'], $shop_thumbnail['crop'] );
+		// add_image_size( 'shop_catalog', $shop_catalog['width'], $shop_catalog['height'], $shop_catalog['crop'] );
+		// add_image_size( 'shop_single', $shop_single['width'], $shop_single['height'], $shop_single['crop'] );
+	}
+	// /**
+	//  * Get the template path.
+	//  *
+	//  * @return string
+	//  */
+	// public function template_path() {
+	// 	return apply_filters( 'wedcontest_template_path', 'wedcontest/' );
+	// }
 	/**
 	 * Ensures fatal errors are logged so they can be picked up in the status report.
 	 *
@@ -271,6 +302,17 @@ final class WedContest
 					'source' => 'fatal-errors',
 				)
 			);
+		}
+	}
+	/**
+	 * Define constant if not already set.
+	 *
+	 * @param string      $name  Constant name.
+	 * @param string|bool $value Constant value.
+	 */
+	private function define( $name, $value ) {
+		if ( ! defined( $name ) ) {
+			define( $name, $value );
 		}
 	}
 }

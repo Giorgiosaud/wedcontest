@@ -172,7 +172,7 @@ class WedContest_Install {
 
 		// If we made it till here nothing is running yet, lets set the transient now.
 		set_transient( 'wedcontest_installing', 'yes', MINUTE_IN_SECONDS * 10 );
-		wc_maybe_define_constant( 'WEDCONTEST_INSTALLING', true );
+		wedcontest_maybe_define_constant( 'WEDCONTEST_INSTALLING', true );
 
 		// self::remove_admin_notices();
 		// self::create_options();
@@ -703,7 +703,7 @@ CREATE TABLE {$wpdb->prefix}woocommerce_termmeta (
 		}
 
 		// Customer role
-		add_role( 'representant', __( 'Representante', 'wecontest' ), array(
+		add_role( 'representant', __( 'Representant', 'wedcontest' ), array(
 			'read' 					=> true,
 		) );
 
