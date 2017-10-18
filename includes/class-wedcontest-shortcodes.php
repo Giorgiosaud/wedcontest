@@ -22,7 +22,7 @@ class WedContest_Shortcodes {
 	 */
 	public static function init() {
 		$shortcodes = array(
-			// 'product'                    => __CLASS__ . '::product',
+			'register_representant'                    => __CLASS__ . '::register_representant',
 			// 'product_page'               => __CLASS__ . '::product_page',
 			// 'product_category'           => __CLASS__ . '::product_category',
 			// 'product_categories'         => __CLASS__ . '::product_categories',
@@ -44,7 +44,8 @@ class WedContest_Shortcodes {
 		);
 
 		foreach ( $shortcodes as $shortcode => $function ) {
-			// add_shortcode( apply_filters( "{$shortcode}_shortcode_tag", $shortcode ), $function );
+			add_shortcode(  $shortcode , $function );
+			var_dump($function);
 		}
 
 		// Alias for pre 2.1 compatibility.
@@ -64,7 +65,7 @@ class WedContest_Shortcodes {
 		$function,
 		$atts = array(),
 		$wrapper = array(
-			'class'  => 'woocommerce',
+			'class'  => 'wedcontest',
 			'before' => null,
 			'after'  => null,
 		)
@@ -78,6 +79,24 @@ class WedContest_Shortcodes {
 		// @codingStandardsIgnoreEnd
 
 		return ob_get_clean();
+	}
+	/**
+	 * Display a single product.
+	 *
+	 * @param array $atts Attributes.
+	 * @return string
+	 */
+	public static function register_representant( $atts ) {
+		// if ( empty( $atts ) ) {
+			// return '';
+		// }
+
+		// $atts['skus']  = isset( $atts['sku'] ) ? $atts['sku'] : '';
+		// $atts['ids']   = isset( $atts['id'] ) ? $atts['id'] : '';
+		// $atts['limit'] = '1';
+		$shortcode     = new WedContest_Shortcode_Register_Representant( (array) $atts );
+
+		return $shortcode->get_content();
 	}
 
 	/**
@@ -286,6 +305,7 @@ class WedContest_Shortcodes {
 
 		return $shortcode->get_content();
 	}
+
 
 	/**
 	 * Display a single product price + cart button.

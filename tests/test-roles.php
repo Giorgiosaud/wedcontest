@@ -22,4 +22,21 @@ class RoleTest extends WP_UnitTestCase {
 		$sRole = $aUser['roles'][0];
 		$this->assertEquals( 'representant', $sRole);
 	}
+	/**
+	 * A register_representant shortcode.
+	 * @test
+	 */
+	public function a_visitant_can_see_a_register_form_via_shortcode_in_page(){
+		// $post = $this->factory->post->create( array( 'post_content' => 'representant' ) );
+		$content = '[register_representant]';
+		$shortcoderesult=do_shortcode($content);
+		// var_dump($shortcoderesult);
+        $hopeHas='Registering Representant';
+        $this->assertContains($hopeHas,$shortcoderesult);
+
+		// var_dump($go);
+		// do_shortcode('[register_representant/]');
+		// $this->assertSee('Registering Representant');
+
+	}
 }

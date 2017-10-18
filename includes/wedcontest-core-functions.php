@@ -25,3 +25,12 @@ function wedcontest_maybe_define_constant( $name, $value ) {
 		define( $name, $value );
 	}
 }
+/**
+ * Variable Diw and Dump
+ *
+ * @since 3.0.0
+ * @param string $var  Var name.
+ */
+function dd($var){
+	return die(var_dump($var));
+}
