@@ -45,7 +45,7 @@ class WedContest_Shortcodes {
 
 		foreach ( $shortcodes as $shortcode => $function ) {
 			add_shortcode(  $shortcode , $function );
-			var_dump($function);
+			// var_dump($function);
 		}
 
 		// Alias for pre 2.1 compatibility.

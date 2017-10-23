@@ -44,9 +44,67 @@ class WedContest_Shortcode_Register_Representant{
 		$classes                     = 'register_representant';
 		ob_start();?>
 		<h4>Registering Representant</h4>
-		<?php
-		return '<div class="' .  $classes . '">' . ob_get_clean() . '</div>';
-	}
+		<form class="w-form-h" autocomplete="off" action="https://wedcontest.zonapro.net/wp-login.php" method="post">
+			<div class="w-form-row for_name required">
+				<div class="w-form-row-label">
+					<label for="us_form_1_log"></label>
+				</div>
+				<div class="w-form-row-field">
+					<input type="text" aria-label="name" name="name" id="us_form_1_name" value="" placeholder="Name *" data-required="true" aria-required="true">
+					<span class="w-form-row-field-bar"></span>
+				</div>
+				<div class="w-form-row-state"></div>
+			</div>
+			<div class="w-form-row for_log required">
+				<div class="w-form-row-label">
+					<label for="us_form_1_log"></label>
+				</div>
+				<div class="w-form-row-field">
+					<input type="text" aria-label="name" name="last_name" id="us_form_1_last_name" value="" placeholder="Last Name *" data-required="true" aria-required="true">
+					<span class="w-form-row-field-bar"></span>
+				</div>
+				<div class="w-form-row-state"></div>
+			</div>
+			<div class="w-form-row for_log required">
+				<div class="w-form-row-label">
+					<label for="us_form_1_log"></label>
+				</div>
+				<div class="w-form-row-field">
+					<input type="email" aria-label="name" name="email" id="us_form_1_last_name" value="" placeholder="Last Name *" data-required="true" aria-required="true">
+					<span class="w-form-row-field-bar"></span>
+				</div>
+				<div class="w-form-row-state"></div>
+			</div>
+			<div class="w-form-row for_pwd required">
+				<div class="w-form-row-label">
+					<label for="us_form_1_pwd"></label>
+				</div>
+				<div class="w-form-row-field">
+					<input type="password" aria-label="pwd" name="password" id="us_form_1_pwd" value="" placeholder="Password *" data-required="true" aria-required="true">
+					<span class="w-form-row-field-bar"></span>
+				</div>
+				<div class="w-form-row-state"></div>
+			</div>
+			<div class="w-form-row for_pwd required confirmation">
+				<div class="w-form-row-label">
+					<label for="us_form_1_pwd"></label>
+				</div>
+				<div class="w-form-row-field">
+					<input type="password" name="password_confirmation" id="us_form_1_pwd" value="" placeholder="Password Confirmation" data-required="true" aria-required="true">
+					<span class="w-form-row-field-bar"></span>
+				</div>
+				<div class="w-form-row-state"></div>
+			</div>
+			<div class="w-form-row for_submit">
+				<div class="w-form-row-field">
+					<button class="w-btn style_raised color_primary" type="submit" aria-label="Log In"><span class="g-preloader type_1"></span><span class="w-btn-label">Log In</span><span class="ripple-container"></span></button>
+				</div>
+			</div>
+			<div class="w-form-message"></div>
+			<label for="rememberme"><input id="rememberme" type="checkbox" value="forever" name="rememberme"><span>Remember Me</span></label>	</form>
+			<?php
+			return '<div class="' .  $classes . '">' . ob_get_clean() . '</div>';
+		}
 	/**
 	 * Parse attributes.
 	 *

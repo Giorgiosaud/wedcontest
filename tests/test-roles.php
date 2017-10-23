@@ -28,16 +28,26 @@ class RoleTest extends WP_UnitTestCase {
 	 * @test
 	 */
 	public function a_visitant_can_see_a_register_form_via_shortcode_in_page(){
-		// $post = $this->factory->post->create( array( 'post_content' => 'representant' ) );
 		$content = '[register_representant]';
 		$shortcoderesult=do_shortcode($content);
-		// var_dump($shortcoderesult);
         $hopeHas='Registering Representant';
         $this->assertContains($hopeHas,$shortcoderesult);
+        $hopeHas='name="name"';
+        $this->assertContains($hopeHas,$shortcoderesult);
+        
+        $hopeHas='name="last_name"';
+        $this->assertContains($hopeHas,$shortcoderesult);
 
-		// var_dump($go);
-		// do_shortcode('[register_representant/]');
-		// $this->assertSee('Registering Representant');
+        $hopeHas='name="email"';
+        $this->assertContains($hopeHas,$shortcoderesult);
+
+        $hopeHas='name="password"';
+        $this->assertContains($hopeHas,$shortcoderesult);
+
+        $hopeHas='name="password_confirmation"';
+        $this->assertContains($hopeHas,$shortcoderesult);
+        
+
 
 	}
 }
