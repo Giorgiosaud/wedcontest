@@ -60,7 +60,7 @@ class WedContest_Options {
     		<form method="post" action="options.php">
     			<?php
                 // This prints out all hidden setting fields
-    			settings_fields( 'my_option_group' );
+    			settings_fields( 'wedcontest_settings' );
     			do_settings_sections( 'wedcontest' );
     			submit_button();
     			?>
@@ -75,23 +75,23 @@ class WedContest_Options {
     public function page_init()
     {        
     	register_setting(
-            'my_option_group', // Option group
+            'wedcontest_settings', // Option group
             'wedcontest', // Option name
             array( $this, 'sanitize' ) // Sanitize
         );
 
     	add_settings_section(
-            'setting_section_id', // ID
-            'My Custom Settings', // pass
+            'wedcontest_main_setting', // ID
+            'My Webhook Settings', // pass
             array( $this, 'print_section_info' ), // Callback
-            'my-setting-admin' // Page
+            'wedcontest' // Page
         );  
     	add_settings_field(
     		'pass', 
     		'Pass', 
     		array( $this, 'pass_callback' ), 
-    		'my-setting-admin', 
-    		'setting_section_id'
+    		'wedcontest',
+    		'wedcontest_main_setting'
     	);      
     }
 
@@ -117,7 +117,7 @@ class WedContest_Options {
      */
     public function print_section_info()
     {
-    	print 'Enter your settings below:';
+    	_e('Enter your Webhook Settings below:','wedcontest');
     }
 
     /** 
