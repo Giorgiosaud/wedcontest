@@ -9,7 +9,7 @@ if (file_exists($path . '/wp-load.php')) {
 } elseif (file_exists($path . '/../wp-load.php')) {
 	include_once $path . '/../wp-load.php';
 }
-$options=get_option('wedcontest');
+$options=get_option('wedcontest_settings');
 $hookSecret =$options['secret'];
 die(var_dump($hookSecret));
 
