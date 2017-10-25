@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8030d2b8-ff2f-47fe-b107-09024b7b3b35" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gp.php" afterPath="$PROJECT_DIR$/gp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/class-wedcontest-options.php" afterPath="$PROJECT_DIR$/includes/class-wedcontest-options.php" />
     </list>
     <ignored path="wedcontest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,12 +27,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="class-wedcontest-options.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="class-wedcontest-options.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/class-wedcontest-options.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.2156863" vertical-offset="1729" max-vertical-offset="2175">
-              <caret line="140" column="80" selection-start-line="140" selection-start-column="80" selection-end-line="140" selection-end-column="80" />
-              <folding />
+            <state vertical-scroll-proportion="0.562341" vertical-offset="349" max-vertical-offset="2220">
+              <caret line="45" column="123" selection-start-line="45" selection-start-column="123" selection-end-line="45" selection-end-column="123" />
+              <folding>
+                <marker date="1508968284000" expanded="true" signature="4153:4327" placeholder="..." />
+                <marker date="1508968284000" expanded="true" signature="4228:4327" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,16 +45,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="420">
               <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gp.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gp.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42857143" vertical-offset="0" max-vertical-offset="1380">
-              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -128,8 +121,8 @@
         <option value="$PROJECT_DIR$/tests/test-options.php" />
         <option value="$PROJECT_DIR$/includes/class-wedcontest-autoloader.php" />
         <option value="$PROJECT_DIR$/includes/class-wedcontest.php" />
-        <option value="$PROJECT_DIR$/includes/class-wedcontest-options.php" />
         <option value="$PROJECT_DIR$/gp.php" />
+        <option value="$PROJECT_DIR$/includes/class-wedcontest-options.php" />
       </list>
     </option>
   </component>
@@ -457,10 +450,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/class-wedcontest-options.php">
+    <entry file="file://$PROJECT_DIR$/gp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.2156863" vertical-offset="1729" max-vertical-offset="2175">
-          <caret line="140" column="80" selection-start-line="140" selection-start-column="80" selection-end-line="140" selection-end-column="80" />
+        <state vertical-scroll-proportion="-1.75" vertical-offset="915" max-vertical-offset="1380">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -473,11 +466,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gp.php">
+    <entry file="file://$PROJECT_DIR$/includes/class-wedcontest-options.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42857143" vertical-offset="0" max-vertical-offset="1380">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding />
+        <state vertical-scroll-proportion="0.562341" vertical-offset="349" max-vertical-offset="2220">
+          <caret line="45" column="123" selection-start-line="45" selection-start-column="123" selection-end-line="45" selection-end-column="123" />
+          <folding>
+            <marker date="1508968284000" expanded="true" signature="4153:4327" placeholder="..." />
+            <marker date="1508968284000" expanded="true" signature="4228:4327" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
