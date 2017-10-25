@@ -87,8 +87,8 @@ class WedContest_Options {
             'wedcontest' // Page
         );  
     	add_settings_field(
-    		'pass', 
-    		'Pass', 
+    		'secret',
+    		'Secret',
     		array( $this, 'pass_callback' ), 
     		'wedcontest',
     		'wedcontest_main_setting'
