@@ -11,7 +11,7 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
-die(var_dump('holaljcokmsdlkcmlksmdcklsmdklcmklsdclksmdklcmsck'));
+
 /**
  * WedContest Shortcodes class.
  */
