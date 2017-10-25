@@ -80,6 +80,8 @@ class WedContest_Autoloader {
 			$path = $this->include_path . 'admin/';
 		} elseif ( 0 === strpos( $class, 'wedcontest_log_handler_' ) ) {
 			$path = $this->include_path . 'log-handlers/';
+		}elseif ( 0 === strpos( $class, 'wedcontest_options' ) ) {
+			$path = $this->include_path . 'log-handlers/';
 		}
 
 		if ( empty( $path ) || ! $this->load_file( $path . $file ) ) {
