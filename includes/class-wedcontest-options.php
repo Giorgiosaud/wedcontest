@@ -106,8 +106,8 @@ class WedContest_Options {
     	// if( isset( $input['id_number'] ) )
     	// 	$new_input['id_number'] = absint( $input['id_number'] );
 
-    	if( isset( $input['pass'] ) )
-    		$new_input['pass'] = sanitize_text_field( $input['pass'] );
+    	if( isset( $input['secret'] ) )
+    		$new_input['secret'] = sanitize_text_field( $input['secret'] );
 
     	return $new_input;
     }
@@ -137,8 +137,8 @@ class WedContest_Options {
     public function pass_callback()
     {
     	printf(
-    		'<input type="text" id="pass" name="wedcontest[pass]" value="%s" />',
-    		isset( $this->options['pass'] ) ? esc_attr( $this->options['pass']) : ''
+    		'<input type="text" id="secret" name="wedcontest[secret]" value="%s" />',
+    		isset( $this->options['secret'] ) ? esc_attr( $this->options['secret']) : ''
     	);
     }
 
