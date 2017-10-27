@@ -51,4 +51,4 @@ class WedContest_Authentication_Process{
     }
 }
 
-new WedContest_Authentication_Process();
+// new WedContest_Authentication_Process();
