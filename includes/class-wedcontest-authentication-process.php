@@ -17,16 +17,16 @@ class WedContest_Authentication_Process{
     {
         add_filter( 'authenticate', array($this,'checkForKey'), 10, 3 );
         add_filter( 'query_vars', array($this,'addConfirmQueryVars') );
-        // add_filter( 'template_include', array($this,'confirmationLink', 99 ));
+        add_filter( 'template_include', array($this,'confirmationLink', 99 ));
 
     }
     public function confirmationLink( $template)
     {
-        // if (get_query_var('confirm') !== '') {
-            // die(var_dump('confirmation url'));
+        if (get_query_var('confirm') !== '') {
+            var_dump('confirmation url');
             // $new_template = locate_template( array( 'confirmation-page-template.php' ) );
             // return $new_template;
-        // }
+        }
 
         return $template;
     }
