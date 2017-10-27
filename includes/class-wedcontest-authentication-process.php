@@ -23,8 +23,8 @@ class WedContest_Authentication_Process{
     public function confirmationLink( $template)
     {
         if (get_query_var('confirm') !== '') {
-            // var_dump('confirmation url');
             $new_template = locate_template( array( 'confirmation-page-template.php' ) );
+            var_dump($new_template);
             return $new_template;
         }
 
