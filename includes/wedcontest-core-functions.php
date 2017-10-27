@@ -48,10 +48,10 @@ function wed_get_template( $template_name, $args = array(), $template_path = '',
 		extract( $args );
 	}
 
-	$located = wc_locate_template( $template_name, $template_path, $default_path );
+	$located = wedcontest_locate_template( $template_name, $template_path, $default_path );
 
 	if ( ! file_exists( $located ) ) {
-		wc_doing_it_wrong( __FUNCTION__, sprintf( __( '%s does not exist.', 'wedcontest' ), '<code>' . $located . '</code>' ), '2.1' );
+		wedcontest_doing_it_wrong( __FUNCTION__, sprintf( __( '%s does not exist.', 'wedcontest' ), '<code>' . $located . '</code>' ), '2.1' );
 		return;
 	}
 
@@ -103,4 +103,22 @@ function wed_locate_template( $template_name, $template_path = '', $default_path
 
 	// Return what we found.
 	return apply_filters( 'wedcontest_locate_template', $template, $template_name, $template_path );
+}
+/**
+ * Wrapper for wc_doing_it_wrong.
+ *
+ * @since  3.0.0
+ * @param  string $function
+ * @param  string $version
+ * @param  string $replacement
+ */
+function wedcontest_doing_it_wrong( $function, $message, $version ) {
+	$message .= ' Backtrace: ' . wp_debug_backtrace_summary();
+
+	if ( is_ajax() ) {
+		do_action( 'doing_it_wrong_run', $function, $message, $version );
+		error_log( "{$function} was called incorrectly. {$message}. This message was added in version {$version}." );
+	} else {
+		_doing_it_wrong( $function, $message, $version );
+	}
 }
