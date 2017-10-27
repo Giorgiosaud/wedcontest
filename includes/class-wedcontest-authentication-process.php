@@ -24,7 +24,6 @@ class WedContest_Authentication_Process{
     {
         if (get_query_var('confirm') !== '') {
             $new_template = wed_get_template( 'auth/confirmation-page-template.php'  );
-            var_dump($new_template);
             return $new_template;
         }
 
