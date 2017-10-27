@@ -48,21 +48,21 @@ function wed_get_template( $template_name, $args = array(), $template_path = '',
 		extract( $args );
 	}
 
-	$located = wedcontest_locate_template( $template_name, $template_path, $default_path );
+	$located = wed_locate_template( $template_name, $template_path, $default_path );
 
 	if ( ! file_exists( $located ) ) {
-		wedcontest_doing_it_wrong( __FUNCTION__, sprintf( __( '%s does not exist.', 'wedcontest' ), '<code>' . $located . '</code>' ), '2.1' );
+		wed_doing_it_wrong( __FUNCTION__, sprintf( __( '%s does not exist.', 'wedcontest' ), '<code>' . $located . '</code>' ), '2.1' );
 		return;
 	}
 
 	// Allow 3rd party plugin filter template file from their plugin.
 	$located = apply_filters( 'wed_get_template', $located, $template_name, $args, $template_path, $default_path );
 
-	do_action( 'wedcontest_before_template_part', $template_name, $template_path, $located, $args );
+	do_action( 'wed_before_template_part', $template_name, $template_path, $located, $args );
 
 	include( $located );
 
-	do_action( 'wedcontest_after_template_part', $template_name, $template_path, $located, $args );
+	do_action( 'wed_after_template_part', $template_name, $template_path, $located, $args );
 }
 /**
  * Locate a template and return the path for inclusion.
@@ -112,7 +112,7 @@ function wed_locate_template( $template_name, $template_path = '', $default_path
  * @param  string $version
  * @param  string $replacement
  */
-function wedcontest_doing_it_wrong( $function, $message, $version ) {
+function wed_doing_it_wrong( $function, $message, $version ) {
 	$message .= ' Backtrace: ' . wp_debug_backtrace_summary();
 
 	if ( is_ajax() ) {
