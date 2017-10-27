@@ -155,6 +155,7 @@ final class WedContest
 		// include_once( WC_ABSPATH . 'includes/class-wc-post-types.php' ); // Registers post types.
 		include_once( WEDCONTEST_ABSPATH . 'includes/class-wedcontest-install.php' );
 		include_once( WEDCONTEST_ABSPATH . 'includes/class-wedcontest-options.php' );
+		include_once( WEDCONTEST_ABSPATH . 'includes/class-wedcontest-authentication-process.php' );
 		// include_once( WC_ABSPATH . 'includes/class-wc-geolocation.php' );
 		// include_once( WC_ABSPATH . 'includes/class-wc-download-handler.php' );
 		// include_once( WC_ABSPATH . 'includes/class-wc-comments.php' );

@@ -8,9 +8,9 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @class 		WedContest_Autoloader
  * @version		2.3.0
- * @package		WooCommerce/Classes
+ * @package		WedContest/Classes
  * @category	Class
- * @author 		WooThemes
+ * @author 		Giorgiosaud
  */
 class WedContest_Autoloader {
 
