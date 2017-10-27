@@ -253,7 +253,7 @@ final class WedContest
 	}
 	public function setup_environment() {
 		/* @deprecated 2.2 Use WC()->template_path() instead. */
-		// $this->define( 'WEDCONTEST_TEMPLATE_PATH', $this->template_path() );
+		$this->define( 'WEDCONTEST_TEMPLATE_PATH', $this->template_path() );
 
 		$this->add_thumbnail_support();
 		$this->add_image_sizes();
@@ -281,14 +281,22 @@ final class WedContest
 		// add_image_size( 'shop_catalog', $shop_catalog['width'], $shop_catalog['height'], $shop_catalog['crop'] );
 		// add_image_size( 'shop_single', $shop_single['width'], $shop_single['height'], $shop_single['crop'] );
 	}
-	// /**
-	//  * Get the template path.
-	//  *
-	//  * @return string
-	//  */
-	// public function template_path() {
-	// 	return apply_filters( 'wedcontest_template_path', 'wedcontest/' );
-	// }
+	/**
+	 * Get the template path.
+	 *
+	 * @return string
+	 */
+	public function template_path() {
+		return apply_filters( 'wedcontest_template_path', 'wedcontest/' );
+	}
+	/**
+	 * Get the plugin path.
+	 *
+	 * @return string
+	 */
+	public function plugin_path() {
+		return untrailingslashit( plugin_dir_path( WEDCONTEST_PLUGIN_FILE ) );
+	}
 	/**
 	 * Ensures fatal errors are logged so they can be picked up in the status report.
 	 *
