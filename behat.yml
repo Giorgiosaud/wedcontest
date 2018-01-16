@@ -1,0 +1,40 @@
+default:
+  suites:
+    default:
+      contexts:
+        # Keep WordpressContext first!
+        - PaulGibbs\WordpressBehatExtension\Context\WordpressContext
+        - FeatureContext
+        - Behat\MinkExtension\Context\MinkContext
+        - PaulGibbs\WordpressBehatExtension\Context\ContentContext
+        - PaulGibbs\WordpressBehatExtension\Context\DashboardContext
+        - PaulGibbs\WordpressBehatExtension\Context\SiteContext
+        - PaulGibbs\WordpressBehatExtension\Context\UserContext
+        - PaulGibbs\WordpressBehatExtension\Context\EditPostContext
+        - PaulGibbs\WordpressBehatExtension\Context\WidgetContext
+        - PaulGibbs\WordpressBehatExtension\Context\ToolbarContext
+
+  extensions:
+    Behat\MinkExtension:
+      base_url: http://dipronew.dev
+      browser_name: firefox
+      default_session: default
+      javascript_session: selenium2
+      sessions:
+        default:
+          goutte:
+            guzzle_parameters:
+              verify: false  # Allow self-signed SSL certificates
+        selenium2:
+          selenium2: ~
+
+    PaulGibbs\WordpressBehatExtension:
+      default_driver: wpcli
+      path: /Users/jorgelsaud/Sites/dipronew
+      users:
+        admin:
+          username: admin
+          password: zonapro123*
+      database:
+        restore_after_test: true
+        backup_path: /Users/jorgelsaud/Sites/backupTests/

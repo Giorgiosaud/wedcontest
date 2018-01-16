@@ -2,10 +2,424 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8030d2b8-ff2f-47fe-b107-09024b7b3b35" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/class-wedcontest-authentication-process.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/class-wedcontest-autoloader.php" afterPath="$PROJECT_DIR$/includes/class-wedcontest-autoloader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/wedcontest-core-functions.php" afterPath="$PROJECT_DIR$/includes/wedcontest-core-functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/.github/ISSUE_TEMPLATE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/.github/PULL_REQUEST_TEMPLATE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/CONTRIBUTING.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/bootstrap.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/cmb2-display-rtl.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/cmb2-display-rtl.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/cmb2-display.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/cmb2-display.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/cmb2-display.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/cmb2-front-rtl.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/cmb2-front-rtl.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/cmb2-front.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/cmb2-front.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/cmb2-front.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/cmb2-rtl.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/cmb2-rtl.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/cmb2.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/cmb2.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/cmb2.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/sass/cmb2-display.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/sass/cmb2-front.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/sass/cmb2.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/sass/index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/sass/partials/_collapsible_ui.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/sass/partials/_context_metaboxes.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/sass/partials/_display.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/sass/partials/_front.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/sass/partials/_jquery_ui.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/sass/partials/_main_wrap.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/sass/partials/_misc.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/sass/partials/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/sass/partials/_options-page.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/sass/partials/_post_metaboxes.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/sass/partials/_sidebar_placements.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/sass/partials/_variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/css/sass/partials/index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/example-functions.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/images/ico-delete.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/images/index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/images/ui-bg_glass_75_dadada_1x400.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/images/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/images/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/images/ui-icons_222222_256x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/images/ui-icons_2e83ff_256x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/images/ui-icons_454545_256x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/images/ui-icons_888888_256x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/images/ui-icons_cd0a0a_256x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/CMB2.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/CMB2_Ajax.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/CMB2_Base.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/CMB2_Boxes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/CMB2_Field.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/CMB2_Field_Display.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/CMB2_Hookup_Base.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/CMB2_JS.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/CMB2_Options.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/CMB2_Options_Hookup.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/CMB2_Sanitize.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/CMB2_Show_Filters.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/CMB2_Types.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/CMB2_Utils.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/CMB2_hookup.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/helper-functions.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/rest-api/CMB2_REST.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/rest-api/CMB2_REST_Controller.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/rest-api/CMB2_REST_Controller_Boxes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/rest-api/CMB2_REST_Controller_Fields.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/shim/WP_REST_Controller.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_Base.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_Checkbox.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_Colorpicker.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_File.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_File_Base.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_File_List.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_Multi_Base.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_Multicheck.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_Oembed.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_Picker_Base.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_Radio.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_Select.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_Select_Timezone.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_Taxonomy_Base.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_Taxonomy_Multicheck.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_Taxonomy_Multicheck_Hierarchical.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_Taxonomy_Radio.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_Taxonomy_Radio_Hierarchical.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_Taxonomy_Select.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_Text.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_Text_Date.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_Text_Datetime_Timestamp.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_Text_Datetime_Timestamp_Timezone.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_Text_Time.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_Textarea.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_Textarea_Code.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_Title.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/includes/types/CMB2_Type_Wysiwyg.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/init.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/js/cmb2-wysiwyg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/js/cmb2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/js/cmb2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/js/index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/js/jquery-ui-timepicker-addon.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ach.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ach.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-af.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-af.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-an.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-an.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ar.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ar.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ary.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ary.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-as.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-as.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-az.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-az.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-be.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-be.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-bg.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-bg.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-bg_BG.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-bg_BG.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-bn_BD.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-bn_BD.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-br.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-br.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-bs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-bs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-bs_BA.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-bs_BA.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ca.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ca.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-co.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-co.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-cs_CZ.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-cs_CZ.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-cy.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-cy.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-da_DK.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-da_DK.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-de_AT.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-de_AT.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-de_CH.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-de_CH.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-de_DE.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-de_DE.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-dv.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-dv.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-el.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-el.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-en@pirate.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-en@pirate.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-en_AU.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-en_AU.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-en_CA.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-en_CA.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-en_GB.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-en_GB.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-eo.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-eo.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-es_AR.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-es_AR.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-es_CL.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-es_CL.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-es_CO.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-es_CO.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-es_ES.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-es_ES.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-es_MX.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-es_MX.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-es_PE.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-es_PE.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-es_VE.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-es_VE.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-et.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-et.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-eu.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-eu.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-fa.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-fa.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-fa_IR.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-fa_IR.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-fi.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-fi.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-fo.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-fo.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-fr_BE.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-fr_BE.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-fr_CA.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-fr_CA.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-fr_FR.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-fr_FR.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-fy.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-fy.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ga.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ga.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-gd.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-gd.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-gl_ES.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-gl_ES.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-gu_IN.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-gu_IN.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-he_IL.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-he_IL.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-hi_IN.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-hi_IN.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-hr.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-hr.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-hu_HU.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-hu_HU.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-hy.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-hy.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-id_ID.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-id_ID.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-is_IS.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-is_IS.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-it_IT.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-it_IT.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ja.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ja.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-jv.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-jv.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ka.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ka.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ka_GE.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ka_GE.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-kk.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-kk.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-km.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-km.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-kn.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-kn.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ko_KR.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ko_KR.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ku.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ku.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ky.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ky.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-lo.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-lo.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-lt_LT.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-lt_LT.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-lv.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-lv.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-mg.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-mg.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-mk_MK.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-mk_MK.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-mn.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-mn.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-mr.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-mr.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ms_MY.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ms_MY.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-my_MM.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-my_MM.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-nb_NO.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-nb_NO.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ne_NP.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ne_NP.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-nl_BE.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-nl_BE.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-nl_NL.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-nl_NL.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-nn_NO.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-nn_NO.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-oc.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-oc.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-os.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-os.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-pap.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-pap.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-pl_PL.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-pl_PL.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ps.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ps.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-pt_BR.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-pt_BR.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-pt_PT.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-pt_PT.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ro_RO.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ro_RO.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ru_RU.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ru_RU.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-sa.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-sa.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-sah.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-sah.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-si_LK.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-si_LK.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-sk_SK.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-sk_SK.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-sl_SI.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-sl_SI.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-so.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-so.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-sq.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-sq.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-sr_RS.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-sr_RS.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-su.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-su.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-sv_SE.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-sv_SE.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-sw.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-sw.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ta_IN.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ta_IN.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ta_LK.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ta_LK.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-te.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-te.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-tg.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-tg.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-th.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-th.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-tk_TM.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-tk_TM.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-tl.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-tl.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-tr_TR.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-tr_TR.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-tzm.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-tzm.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ug.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ug.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-uk.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-uk.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ur.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ur.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ur_PK.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-ur_PK.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-uz.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-uz.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-vi.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-vi.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-zh_CN.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-zh_CN.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-zh_HK.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-zh_HK.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-zh_TW.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2-zh_TW.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/languages/cmb2.pot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CMB2/readme.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/behat.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/install-package-tests.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/test.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/custom/functions.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/features/ConfigWedcontest.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/features/bootstrap/FeatureContext.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/features/login.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/features/register_representant.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/features/representant.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/features/toolbar.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/features/update-post.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/features/user.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/features/viewing-blog-posts.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/features/widget.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/wedcontest-script.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Capabilities/Initialize.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CustomPosts/ArtWork.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CustomPosts/Contest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CustomPosts/Initialize.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CustomPosts/Participant.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Initialize.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Install.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Logger/Handler/File.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Logger/Handler/Handler.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Logger/Handler/HandlerInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Logger/Levels.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Logger/Log.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Logger/LogInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Options.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/PostTypes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Roles/Representant.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Shortcodes/Initialize.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Shortcodes/RegisterRepresentant.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Shortcodes/ShortcodesInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Uninstall.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Variables/Country.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Widgets/Initialize.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Widgets/Session.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Widgets/Session/InterfaceSession.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Widgets/Session/LoggedIn.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Widgets/Session/LoginForm.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Widgets/Session/LoginOrRegister.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Widgets/Session/RegisterForm.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Widgets/Session/RegisterRepresentant.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/utils/behat-tags.php" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/wedcontest.iml" afterPath="$PROJECT_DIR$/.idea/wedcontest.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change beforePath="$PROJECT_DIR$/includes/class-wedcontest-authentication-process.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/includes/class-wedcontest-autoloader.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/includes/class-wedcontest-install.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/includes/class-wedcontest-options.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/includes/class-wedcontest-shortcodes.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/includes/class-wedcontest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/includes/shortcodes/class-wedcontest-shortcode-register-representant.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/includes/shortcodes/js/confirmation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/includes/wedcontest-core-functions.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/auth/confirmation-page-template.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tests/bootstrap.php" afterPath="$PROJECT_DIR$/tests/bootstrap.php" />
+      <change beforePath="$PROJECT_DIR$/tests/test-options.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wedcontest.php" afterPath="$PROJECT_DIR$/wedcontest.php" />
     </list>
     <ignored path="wedcontest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,19 +431,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
-  </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="wedcontest" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Initialize.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Initialize.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,9 +467,13 @@
         <option value="$PROJECT_DIR$/includes/class-wedcontest-autoloader.php" />
         <option value="$PROJECT_DIR$/includes/wedcontest-core-functions.php" />
         <option value="$PROJECT_DIR$/includes/class-wedcontest-authentication-process.php" />
+        <option value="$PROJECT_DIR$/src/Logger/Log.php" />
+        <option value="$PROJECT_DIR$/src/Logger/Interface.php" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGruntFileManager">
     <gruntfiles>
       <GruntfileState>
@@ -57,22 +484,83 @@
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/container-interop/container-interop" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/behat/behat" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/class-loader" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/behat-page-object-extension" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-selenium" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/behat/mink-extension" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/behat/mink-browserkit-driver" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/behat/transliterator" />
+      <path value="$PROJECT_DIR$/vendor/behat/mink-goutte-driver" />
+      <path value="$PROJECT_DIR$/vendor/behat/mink-selenium2-driver" />
+      <path value="$PROJECT_DIR$/vendor/behat/mink" />
+      <path value="$PROJECT_DIR$/vendor/behat/gherkin" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/instaclick/php-webdriver" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/fabpot/goutte" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/vendor/paulgibbs/behat-wordpress-extension" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="17" />
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="773" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+    <option name="width" value="1263" />
+    <option name="height" value="700" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -85,143 +573,102 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wedcontest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wedcontest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dipronew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wedcontest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dipronew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wedcontest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dipronew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wedcontest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dipronew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wedcontest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wedcontest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dipronew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wedcontest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="wedcontest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dipronew" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wedcontest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dipronew" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wedcontest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dipronew" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wedcontest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dipronew" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wedcontest" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wedcontest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dipronew" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wedcontest" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/phpunit.xml.dist" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Remesas" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="reference.webide.settings.project.settings.php.phpunit" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="FullScreen" value="false" />
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <method />
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
     </configuration>
-    <list size="0" />
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -230,35 +677,45 @@
       <changelist id="8030d2b8-ff2f-47fe-b107-09024b7b3b35" name="Default" comment="" />
       <created>1508780485778</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1508780485778</updated>
+      <workItem from="1516121849913" duration="20000" />
+      <workItem from="1516121877308" duration="18000" />
+      <workItem from="1516121901623" duration="74000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="112000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24114442" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -271,11 +728,6 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
-  </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>$PROJECT_DIR$/../../..</wordpressPath>
   </component>
@@ -286,150 +738,112 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tests/test-roles.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test-options.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test-options.php" />
     <entry file="file://$PROJECT_DIR$/tests/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10714286" vertical-offset="0" max-vertical-offset="435">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="444">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/install-wp-tests.sh">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1995">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test-roles.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60714287" vertical-offset="0" max-vertical-offset="825">
-          <caret line="21" column="71" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="71" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="21" column="71" lean-forward="false" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.75" vertical-offset="915" max-vertical-offset="1380">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/class-wedcontest-options.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49618322" vertical-offset="375" max-vertical-offset="2535">
-          <caret line="45" column="79" selection-start-line="45" selection-start-column="79" selection-end-line="45" selection-end-column="79" />
-          <folding>
-            <marker date="1508968594000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1508968594000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/class-wedcontest-options.php" />
     <entry file="file://$PROJECT_DIR$/../../../wp-admin/includes/plugin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35238096" vertical-offset="16817" max-vertical-offset="28260">
-          <caret line="1136" column="9" selection-start-line="1136" selection-start-column="9" selection-end-line="1136" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="1136" column="9" lean-forward="false" selection-start-line="1136" selection-start-column="9" selection-end-line="1136" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test-options.php">
+    <entry file="file://$PROJECT_DIR$/tests/test-options.php" />
+    <entry file="file://$PROJECT_DIR$/includes/class-wedcontest-shortcodes.php" />
+    <entry file="file://$PROJECT_DIR$/includes/shortcodes/class-wedcontest-shortcode-register-representant.php" />
+    <entry file="file://$PROJECT_DIR$/includes/class-wedcontest.php" />
+    <entry file="file://$PROJECT_DIR$/includes/class-wedcontest-authentication-process.php" />
+    <entry file="file://$PROJECT_DIR$/includes/wedcontest-core-functions.php" />
+    <entry file="file://$PROJECT_DIR$/../../../wp-includes/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4642857" vertical-offset="0" max-vertical-offset="420">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="675" column="22" lean-forward="false" selection-start-line="675" selection-start-column="9" selection-end-line="675" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/class-wedcontest-autoloader.php" />
+    <entry file="file://$PROJECT_DIR$/src/Logger/Log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wedcontest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.17857143" vertical-offset="75" max-vertical-offset="555">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-35">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/class-wedcontest-shortcodes.php">
+    <entry file="file://$PROJECT_DIR$/src/PostTypes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9990">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/shortcodes/class-wedcontest-shortcode-register-representant.php">
+    <entry file="file://$PROJECT_DIR$/src/Options.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2325">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/class-wedcontest.php">
+    <entry file="file://$PROJECT_DIR$/src/Install.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37150127" vertical-offset="2119" max-vertical-offset="4785">
-          <caret line="156" column="77" selection-start-line="156" selection-start-column="70" selection-end-line="156" selection-end-column="77" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/class-wedcontest-authentication-process.php">
+    <entry file="file://$PROJECT_DIR$/src/Initialize.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2857143" vertical-offset="150" max-vertical-offset="825">
-          <caret line="18" column="70" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/wedcontest-core-functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6946565" vertical-offset="552" max-vertical-offset="945">
-          <caret line="64" column="96" selection-start-line="64" selection-start-column="92" selection-end-line="64" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../wp-includes/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8214286" vertical-offset="9705" max-vertical-offset="10395">
-          <caret line="675" column="22" selection-start-line="675" selection-start-column="9" selection-end-line="675" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/class-wedcontest-autoloader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1485">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
