@@ -5,10 +5,6 @@ class PostTypes {
 
 	public static function create(){
 
-		// if ( ! is_blog_installed() || (post_type_exists( 'participant' )&&post_type_exists( 'artwork' ) )) {
-		// 	return;
-		// }
-
 		// do_action( 'wedcontest_register_post_type' );
 		self::registerParticipants();
 		self::registerArtworks();
@@ -143,10 +139,6 @@ class PostTypes {
 	 * Register core taxonomies.
 	 */
 	public static function register_taxonomies() {
-
-		if ( ! is_blog_installed() ) {
-			return;
-		}
 
 		if ( taxonomy_exists( 'year_participated' ) ) {
 			return;

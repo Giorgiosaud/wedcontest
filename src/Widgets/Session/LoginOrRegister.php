@@ -5,7 +5,7 @@ class LoginOrRegister implements InterfaceSession{
 	public function show(){
 		$wedaction = get_query_var('wedaction');
 		if($wedaction!='register'){
-			$display=new LoginForm();
+			$display=new RegisterForm();
 		}
 		else{
 			$display=new RegisterForm();

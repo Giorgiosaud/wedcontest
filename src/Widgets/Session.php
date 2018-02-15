@@ -7,27 +7,11 @@ use Zonapro\WedContest\Widgets\Session\LoginOrRegister;
 class Session extends \WP_Widget{
 	function __construct() {
 		parent::__construct(
-
-			// Base ID of your widget
-			'zonapro_session', 
-
-			// Widget name will appear in UI
-			__('Session Widget Zonapro', 'wedcontest'), 
-
-			// Widget description
+			'zonapro_session',
+			__('Session Widget Zonapro', 'wedcontest'),
 			array( 'description' => __( 'Manage Widget Session login Register users for wedcontest of diproinduca', 'wedcontest' ), )
 		);
-		add_filter( 'query_vars', array($this,'register_query_vars') );
-		
-
 	}
-	
-	public function register_query_vars($vars){
-		$vars[] = 'wedaction';
-		return $vars;
-	}
-	// Creating widget front-end
-
 	public function widget( $args, $instance ) {
 		$title = apply_filters( 'widget_title', $instance['title'] );
 		echo $args['before_widget'];

@@ -3,6 +3,7 @@ namespace Zonapro\WedContest;
 
 use Zonapro\WedContest\Options;
 class Initialize{
+    public $query = null;
 	/**
 	 * The single instance of the class.
 	 *
@@ -82,7 +83,7 @@ class Initialize{
 	public function __construct()
 	{
 		$this->define_constants();
-		
+        $this->query = new Query();
 		$this->init_hooks();
 		if( is_admin() )
 			$my_settings_page = new Options();
@@ -98,10 +99,7 @@ class Initialize{
 		$this->define( 'WEDCONTEST_ABSPATH', dirname( WEDCONTEST_PLUGIN_FILE ) . '/' );
 		$this->define( 'WEDCONTEST_PLUGIN_BASENAME', plugin_basename( WEDCONTEST_PLUGIN_FILE ) );
 		$this->define( 'WEDCONTEST_VERSION', $this->version );
-		// $this->define( 'WEDCONTEST_DELIMITER', '|' );
 		$this->define( 'WEDCONTEST_LOG_DIR', $upload_dir['basedir'] . '/wed-logs/' );
-		// $this->define( 'WEDCONTEST_SESSION_CACHE_GROUP', 'wedcontest_session_id' );
-		// $this->define( 'WEDCONTEST_TEMPLATE_DEBUG_MODE', false );
 	}
 	/**
 	 * Initialize Hooks
@@ -110,24 +108,12 @@ class Initialize{
 
 		register_activation_hook( WEDCONTEST_PLUGIN_FILE, array( Install::class, 'install' ) );
 		new \Zonapro\WedContest\Capabilities\Initialize();
-		
 		register_deactivation_hook(WEDCONTEST_PLUGIN_FILE, array( Uninstall::class, 'uninstall' ));
 		new \Zonapro\WedContest\CustomPosts\Initialize();
 		new \Zonapro\WedContest\Capabilities\Initialize();
-		// add_action('init',array('\Zonapro\WedContest\PostTypes','create'));
-		// add_action('init',array('\Zonapro\WedContest\Capabilities','update'));
-		// register_shutdown_function( array( $this, 'log_errors' ) );
 		new \Zonapro\WedContest\Shortcodes\Initialize();
 		new \Zonapro\WedContest\Widgets\Initialize();
 		new \Zonapro\WedContest\Profile\Extrafields\Initialize();
-		// add_action( 'after_setup_theme', array( $this, 'setup_environment' ) );
-		// add_action( 'after_setup_theme', array( $this, 'include_template_functions' ), 11 );
-		// add_action( 'init', array( $this, 'init' ), 0 );
-		// add_action( 'init', array( 'WedContest_Shortcodes', 'init' ) );
-		// add_action( 'init', array( 'WC_Emails', 'init_transactional_emails' ) );
-		// add_action( 'init', array( $this, 'wpdb_table_fix' ), 0 );
-		// add_action( 'switch_blog', array( $this, 'wpdb_table_fix' ), 0 );
-
 		add_action( 'wp_enqueue_scripts', array($this,'scripts' ));
 		add_action('wp_ajax_nopriv_register_representant',array($this,'register_new_representant'));
 	}

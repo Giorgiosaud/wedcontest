@@ -7,18 +7,7 @@ class Install{
 	 * @return void
 	 */
 	public static function install(){
-		// if ( ! is_blog_installed() ) {
-			// return;
-		// }
-
-		// Check if we are not already running this routine.
-		// if ( 'yes' === get_transient( 'wedcontest_installing' ) ) {
-			// return;
-		// }
-
-		// If we made it till here nothing is running yet, lets set the transient now.
 		set_transient( 'wedcontest_installing', 'yes', MINUTE_IN_SECONDS * 10 );
-		
 		wedcontest_maybe_define_constant( 'WEDCONTEST_INSTALLING', true );
 
 		// self::remove_admin_notices();
@@ -57,10 +46,10 @@ class Install{
 	 * @since 3.2.0
 	 */
 	private static function setup_environment() {
-		// new PostTypes();
-		// WedContest_Post_types::register_taxonomies();
-		// WC()->query->init_query_vars();
-		// WC()->query->add_endpoints();
+		 new PostTypes();
+		 PostTypes::register_taxonomies();
+        wedcontest()->query->init_query_vars();
+		// wedcontest()->query->add_endpoints();
 		// WC_API::add_endpoint();
 		// WC_Auth::add_endpoint();
 	}

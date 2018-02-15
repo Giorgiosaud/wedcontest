@@ -1,5 +1,11 @@
 <?php
-
+if ( ! function_exists('is_blog_installed')) {
+    function is_blog_installed()
+    {
+        echo 'aqui';
+        return true;
+    }
+}
 if ( ! function_exists('write_log')) {
 	/**
 	 * function to write in log

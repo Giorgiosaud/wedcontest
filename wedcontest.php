@@ -1,6 +1,5 @@
 <?php
 
-use Zonapro\WedContest\Initialize;
 
 /**
  * Plugin Name:     Wedcontest
@@ -14,6 +13,8 @@ use Zonapro\WedContest\Initialize;
  *
  * @package         Wedcontest
  */
+
+
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
@@ -39,10 +40,10 @@ include "vendor/autoload.php";
  * Returns the main instance of WC to prevent the need to use globals.
  *
  * @since  2.1
- * @return Wedcontest
+ * @return Wedcontest|\Zonapro\WedContest\WedContest
  */
 function wedcontest() {
-	return Initialize::instance();
+	return \Zonapro\WedContest\Initialize::instance();
 }
 // add_action('wp_ajax_no_priv_register_representant','register_new_representant');
 // Global for backwards compatibility.
